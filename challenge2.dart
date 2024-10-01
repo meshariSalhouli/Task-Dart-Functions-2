@@ -1,3 +1,5 @@
+
+
 /**
  * greet(name):
  * - receives a name,
@@ -6,8 +8,10 @@
  * e.g.
  * greet("Hamza") => prints "Hello Hamza"
  */
-void greet(String name) {
+void greet(String name ) {
   // Your code here
+  String name ="meshari";
+  greet("hello $name" );
 }
 
 /**
@@ -21,6 +25,13 @@ void greet(String name) {
  */
 bool isOdd(int n) {
   // Your code here
+  if(n%2!=0){
+return(true);
+  }
+  else{
+    return(false);
+  }
+  
 }
 
 /**
@@ -34,6 +45,8 @@ bool isOdd(int n) {
  */
 int oddsSmallerThan(int n) {
   // Your code here
+
+return n~/2;
 }
 
 /**
@@ -48,4 +61,11 @@ int oddsSmallerThan(int n) {
  */
 int squareOrDouble(int n) {
   // Your code here
+if(n%2==1){
+  return n*2;
+}
+else{
+  return n*n;
+}
+
 }
