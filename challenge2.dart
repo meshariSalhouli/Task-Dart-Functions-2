@@ -10,7 +10,7 @@
  */
 void greet(String name ) {
   // Your code here
-  String name ="meshari";
+  
   greet("hello $name" );
 }
 
